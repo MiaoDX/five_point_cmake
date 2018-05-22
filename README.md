@@ -2,7 +2,7 @@ Standalone CMake project for [Nghia Ho's 5 points algorithm](http://nghiaho.com/
 
 It was once one subset of [MiaoDX/pose_estimation](https://github.com/MiaoDX/pose_estimation), for better isolation consideration, here it is.
 
-I personally like using more mature libs for (almost) everything, but it seems that all existing relative pose estimation codes, both in OpenCV and OpenGV fails one or another way. So, at last we come back to this implement. To make this to be useful in various scenarios, I make it cmake-friendly and with one almost bare python binding (only with OpenCV).
+I personally like using more mature libs for (almost) everything, but it seems that all existing relative pose estimation codes, both in OpenCV and OpenGV fails one way or another. So, at last we come back to this implement. To make this easier to integrate in various scenarios, I make it cmake-friendly and with one almost bare python binding (only with OpenCV).
 
 [Notes from Nghia_Ho website](Notes_of_Nghia_Ho.md)
 
